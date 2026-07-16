@@ -26,6 +26,29 @@ body {
     margin: 0;
 }
 
+.navbar {
+    background: white;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.navbar a {
+    color: #23395d;
+    text-decoration: none;
+    padding: 9px 14px;
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background: #23395d;
+    color: white;
+}
+
 .card {
     background: white;
     padding: 22px;
@@ -79,6 +102,12 @@ button {
 }
 
 .btn-hapus {
+    background: #d9534f;
+    color: white;
+}
+
+.btn-hapus-jabatan,
+.btn-hapus-unit {
     background: #d9534f;
     color: white;
 }

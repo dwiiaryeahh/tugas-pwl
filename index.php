@@ -12,6 +12,13 @@
     <div class="header">
         <h1>Kepegawaian Fakultas Teknik</h1>
         <p>Dwi Arya Putra | 202343501487 | S6H</p>
+        <p>Kepegawaian Fakultas Teknik</p>
+    </div>
+
+    <div class="navbar">
+        <a class="active" href="index.php">Pegawai</a>
+        <a href="jabatan.php">Jabatan</a>
+        <a href="unit_kerja.php">Unit Kerja</a>
     </div>
 
     <div id="notif"></div>

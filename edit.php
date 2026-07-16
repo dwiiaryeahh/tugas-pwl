@@ -21,6 +21,12 @@ $row = mysqli_fetch_assoc($data);
         <p>Kepegawaian Fakultas Teknik</p>
     </div>
 
+    <div class="navbar">
+        <a class="active" href="index.php">Pegawai</a>
+        <a href="jabatan.php">Jabatan</a>
+        <a href="unit_kerja.php">Unit Kerja</a>
+    </div>
+
     <div id="notif"></div>
 
     <div class="card">
